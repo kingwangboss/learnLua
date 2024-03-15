@@ -1,0 +1,18 @@
+
+明白了，您正在学习 Lua 编程语言。以下是 Lua 编程语言的一些词法约定，供您参考：
+
+标识符（Identifiers）：Lua 中的标识符可以包含字母、数字和下划线，但必须以字母或下划线开头。Lua 是大小写敏感的，因此 myVariable 和 MyVariable 是两个不同的标识符。Lua 中的关键字（如 if、while、function 等）不能用作标识符。
+
+注释（Comments）：Lua 支持单行注释（以 -- 开头）和多行注释（以 --[[ 开头，以 ]] 结尾）。
+
+数据类型（Data Types）：Lua 中的基本数据类型包括数字（number）、字符串（string）、布尔值（boolean）、表（table）、函数（function）、线程（thread）和 userdata（用户数据）。注意 Lua 是动态类型语言，不需要显式声明变量的类型。
+
+关键字（Keywords）：Lua 中的关键字包括 and、break、do、else、elseif、end、false、for、function、if、in、local、nil、not、or、repeat、return、then、true、until 和 while 等。
+
+操作符（Operators）：Lua 支持常见的算术操作符（+、-、*、/、%）、关系操作符（==、~=、<、>、<=、>=）、逻辑操作符（and、or、not）、赋值操作符（=）、连接操作符（..）等。
+
+字符串（Strings）：Lua 中的字符串可以用单引号或双引号括起来，例如 'hello' 或 "world"。还支持长字符串（使用双中括号 [[ ... ]]）和转义字符（如 \n 表示换行）。
+
+表达式（Expressions）：Lua 支持复杂的表达式，包括算术表达式、逻辑表达式、函数调用、索引访问、赋值表达式等。
+
+语句（Statements）：Lua 的语句包括赋值语句、条件语句（if、else、elseif）、循环语句（for、while、repeat）、函数定义、局部变量声明（local）等。
