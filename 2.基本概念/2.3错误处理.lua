@@ -21,7 +21,12 @@ local function error_handler(err)
 end
 
 -- 使用xpcall捕获可能的错误，并指定自定义的错误处理函数
-local status, result = xpcall(divide, error_handler, 10, 0)
+local status, result = xpcall(divide, error_handler, 10, 20)
 if status then
     print("Result:", result)
 end
+
+
+-- 使用assert抛出错误
+local value = 100
+assert(value > 200, "Value is too small")
