@@ -1,4 +1,8 @@
+-- 获取当前工作目录
+local current_dir = io.popen("cd"):read("*all"):gsub("\n$", "")
 
+-- 将当前目录添加到 package.path
+package.path = package.path .. ";" .. current_dir .. "/6.标准库/6.3模块/?.lua"
 -- 加载模块
 local my_module = require("my_module")
 
